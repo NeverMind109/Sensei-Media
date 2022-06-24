@@ -1,0 +1,88 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-size: inherit;
+}
+p {
+  margin: 0;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+}
+body {
+  min-width: 320px;
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--color-main);
+  background-color: var(--color-bg);
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.colored-text {
+  background-color: red;
+  background-image: var(--color-accent);
+  background-size: 100%;
+  background-repeat: repeat;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 48px;
+  text-transform: uppercase;
+  color: var(--color-main);
+}
+
+.setion-subtitle {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--color-light);
+}
+
+.btn {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--color-light);
+  background: var(--color-accent);
+  border-radius: 9px;
+  &--big {
+    padding: 14px 38px 14px 42px;
+  }
+  &--standart {
+    padding: 14px 53px;
+  }
+}
