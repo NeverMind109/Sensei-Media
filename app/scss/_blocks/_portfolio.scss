@@ -1,0 +1,25 @@
+.portfolio {
+  padding-bottom: 90px;
+  &__title {
+    margin-bottom: 40px;
+  }
+  &__carousel {
+    position: relative;
+  }
+  &__carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 20;
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    cursor: pointer;
+  }
+  &__carousel-prev {
+    left: -5%;
+  }
+  &__carousel-next {
+    right: -5%;
+  }
+}

@@ -1,0 +1,41 @@
+.our-work {
+  max-width: 570px;
+  min-height: 520px;
+  background-color: var(--color-light);
+  box-shadow: var(--main-shadow);
+  border: 0;
+  border-radius: 15px;
+  &__top {
+    padding: 10px 30px 24px;
+  }
+  &__img {
+    margin-bottom: 4px;
+  }
+  &__body {
+    background-color: #f3f1fe;
+    padding: 21px 30px 25px;
+  }
+  &__title {
+    text-align: left;
+    color: var(--color-main);
+    margin-bottom: 10px;
+  }
+  &__num {
+    font-weight: 800;
+    font-size: 18px;
+  }
+  &__descr {
+    font-size: 16px;
+  }
+  &__footer {
+    background-color: var(--color-light);
+    border: none;
+    border-radius: 0;
+    padding: 25px 30px;
+  }
+  &__system {
+    &:not(:last-child) {
+      margin-right: 16px;
+    }
+  }
+}

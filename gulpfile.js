@@ -36,7 +36,11 @@ function images() {
 }
 
 function libscss() {
-  return src(["node_modules/bootstrap/dist/css/bootstrap.min.css"])
+  return src([
+    "node_modules/bootstrap/dist/css/bootstrap.min.css",
+    "node_modules/slick-carousel/slick/slick.css",
+    "node_modules/slick-carousel/slick/slick-theme.css",
+  ])
     .pipe(concat("_libs.scss"))
     .pipe(
       autoprefixer({
@@ -52,6 +56,7 @@ function scripts() {
   return src([
     "node_modules/jquery/dist/jquery.js",
     "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js",
+    "node_modules/slick-carousel/slick/slick.js",
     "app/js/main.js",
   ])
     .pipe(concat("main.min.js"))
