@@ -1,0 +1,40 @@
+.statistic {
+  &__wrapper {
+    padding-top: 40px;
+    padding-bottom: 47px;
+    background: var(--color-light);
+    box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.08);
+    border-radius: 20px;
+  }
+  &__title {
+    margin-left: 8%;
+    margin-bottom: 33px;
+  }
+  &__item {
+    &:not(:last-child) {
+      position: relative;
+      &:after {
+        content: "";
+        position: absolute;
+        display: block;
+        height: 100%;
+        width: 1px;
+        background-color: #c7c7c7;
+        right: 0;
+      }
+    }
+  }
+  &__num {
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 48px;
+    margin-bottom: 3px;
+    span {
+      font-size: 30px;
+      padding-right: 7px;
+    }
+  }
+  &__text {
+    line-height: 24px;
+  }
+}
