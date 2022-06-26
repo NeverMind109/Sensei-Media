@@ -61,12 +61,14 @@
     box-shadow: var(--main-shadow);
     border: none;
     border-radius: 2px;
+    cursor: pointer;
     margin-right: 12px;
   }
   &__text {
     font-weight: 300;
+    transition: color 0.2s;
     &:hover {
-      color: var(--color-main);
+      color: var(--color-gray);
     }
   }
   &__img {

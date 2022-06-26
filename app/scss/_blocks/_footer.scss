@@ -1,0 +1,47 @@
+.footer {
+  &__top {
+    padding-top: 38px;
+    padding-bottom: 53px;
+    background-color: var(--color-light);
+  }
+  &__logo {
+    margin-bottom: 5px;
+  }
+  &__policy {
+    max-width: 180px;
+    display: block;
+    line-height: 24px;
+    text-decoration: underline;
+    margin-bottom: 22px;
+    transition: color 0.2s;
+    &:hover {
+      color: var(--color-gray);
+    }
+  }
+  &__item {
+    margin-bottom: 10px;
+    &:first-child {
+      font-weight: 600;
+      line-height: 36px;
+      text-transform: uppercase;
+      margin-bottom: 15px;
+    }
+  }
+  &__link {
+    transition: color 0.2s;
+    &:hover {
+      color: var(--color-gray);
+    }
+  }
+  &__bottom {
+    text-align: center;
+    background-color: #2d2d2d;
+    padding: 3px 0;
+  }
+  &__copy {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 36px;
+    color: var(--color-light);
+  }
+}

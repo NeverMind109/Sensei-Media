@@ -5,6 +5,9 @@
   }
   &__carousel {
     position: relative;
+    column-gap: 78px;
+    flex-wrap: wrap;
+    row-gap: 0px;
   }
   &__carousel-btn {
     position: absolute;
@@ -21,5 +24,12 @@
   }
   &__carousel-next {
     right: -5%;
+  }
+
+  .slick-list {
+    margin: 0px -15px;
+  }
+  .slick-slide {
+    margin: 0 15px;
   }
 }

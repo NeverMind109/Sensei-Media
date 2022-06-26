@@ -8,6 +8,10 @@
     line-height: 24px;
     color: var(--color-main);
     padding: 0;
+    transition: color 0.2s;
+    &:hover {
+      color: var(--color-gray);
+    }
     &:not(:last-child) {
       margin-right: 30px;
     }
