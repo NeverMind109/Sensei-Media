@@ -33,6 +33,9 @@
       color: var(--color-gray);
     }
   }
+  &__btn {
+    max-width: 215px;
+  }
   &__bottom {
     text-align: center;
     background-color: #2d2d2d;

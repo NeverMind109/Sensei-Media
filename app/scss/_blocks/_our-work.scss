@@ -29,8 +29,11 @@
   &__footer {
     background-color: var(--color-light);
     border: none;
-    border-radius: 0;
+    border-radius: 15px;
     padding: 25px 30px;
+    &:last-child {
+      border-radius: 15px;
+    }
   }
   &__system {
     &:not(:last-child) {
